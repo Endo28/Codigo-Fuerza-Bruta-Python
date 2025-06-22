@@ -38,3 +38,7 @@ def fuerza_bruta_ladron(casas):
 
 casas = [-1, 0, 43, 0, -1]
 fuerza_bruta_ladron(casas)
+
+casas = [0,10,6,20,15,-1]
+fuerza_bruta_ladron(casas)
+
