@@ -31,10 +31,10 @@ def fuerza_bruta_ladron(casas):
                 mejor_combinacion = combinacion
 
     print("Casas con sus respectivos botines:", casas)
-    print("Botín máximo:", max_botin)
+    print("Botin maximo:", max_botin)
     print("Casas seleccionadas:")
     for i in sorted(mejor_combinacion):
-        print(f"Índice: {i} - Botín: {casas[i]}")
+        print(f"Indice: {i} - Botin: {casas[i]}")
 
 casas = [-1, 0, 43, 0, -1]
 fuerza_bruta_ladron(casas)
